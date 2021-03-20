@@ -1,0 +1,29 @@
+{
+  "name": "soda-test-mocha-samples",
+  "version": "1.0.4",
+  "description": "Sample code for using Soda-Test on backend, using mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranhs/soda-test-mocha-samples.git"
+  },
+  "keywords": [
+    "mocha",
+    "soda",
+    "test",
+    "examples"
+  ],
+  "author": "Ran Har-Shuv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ranhs/soda-test-mocha-samples/issues"
+  },
+  "homepage": "https://github.com/ranhs/soda-test-mocha-samples#readme",
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
+}
