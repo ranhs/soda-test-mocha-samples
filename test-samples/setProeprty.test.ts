@@ -1,8 +1,8 @@
 // This model do unit testing on the setProperty method (using the soda-test framework)
-import { expect, describe, it, TR } from '.'
+import { expect, describe, it, TR } from 'soda-test'
 
-import { setProperty, targetObj } from '../test-lib/setProperty'
-import { init } from '../test-lib/rewire'
+import { setProperty, targetObj } from 'soda-test/dist/test-lib/setProperty'
+import { init } from 'soda-test/dist/test-lib/rewire'
 
 // gets the original defineProperty method
 const defineProperty: (obj: targetObj, name: string, descriptor: PropertyDescriptor) => targetObj = init['_defineProperty']

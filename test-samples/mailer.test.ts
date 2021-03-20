@@ -1,4 +1,4 @@
-import { expect, describe, context, it, PTR, SinonStub, stub, beforeEach, Rewire, rewire } from '.'
+import { expect, describe, context, it, PTR, SinonStub, stub, beforeEach, Rewire, rewire } from 'soda-test'
 
 import { sendWelcomeEmail, sendPasswordResetEmail } from './mailer'
 

@@ -1,4 +1,4 @@
-import { expect, describe, context, it, TR, SinonStub, stub, beforeEach, afterEach } from '.'
+import { expect, describe, context, it, TR, SinonStub, stub, beforeEach, afterEach } from 'soda-test'
 
 class ToStub {
     foo(): number {

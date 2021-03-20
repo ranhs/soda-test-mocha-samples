@@ -1,4 +1,4 @@
-import { expect, describe, context, it, TR, SinonStub, SinonSpy, stub, spy } from '.'
+import { expect, describe, context, it, TR, SinonStub, SinonSpy, stub, spy } from 'soda-test'
 
 import { parseFunctionSample } from './parse'
 

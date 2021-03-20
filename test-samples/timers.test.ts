@@ -1,4 +1,4 @@
-import { expect, describe, context, it, TR, PTR, useFakeTimers, SinonFakeTimers } from '.'
+import { expect, describe, context, it, TR, PTR, useFakeTimers, SinonFakeTimers } from 'soda-test'
 
 import { getCurrentTime, sleep } from './timers'
 

@@ -1,4 +1,4 @@
-import { expect, describe, context, it, TR, Rewire, rewire  } from '.'
+import { expect, describe, context, it, TR, Rewire, rewire  } from 'soda-test'
 
 import { value } from './reloadLib'
 

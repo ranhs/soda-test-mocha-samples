@@ -1,4 +1,4 @@
-import { expect, describe, it, SinonSpy, spy, TR, PTR, Done } from '.'
+import { expect, describe, it, SinonSpy, spy, TR, PTR, Done } from 'soda-test'
 import { DerivedClass } from './class'
 import { fail } from 'assert'
 

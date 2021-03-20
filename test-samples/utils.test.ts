@@ -1,4 +1,4 @@
-import { describe, SinonStub, stub, it, TR, expect, context, beforeEach } from '.'
+import { describe, SinonStub, stub, it, TR, expect, context, beforeEach } from 'soda-test'
 
 import * as crypto from 'crypto'
 import { getHash, isString } from './utils'

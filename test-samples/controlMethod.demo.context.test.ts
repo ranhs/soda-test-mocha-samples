@@ -1,4 +1,4 @@
-import { describe, context, it, TR, beforeEach, afterEach, before, after, expect } from '.'
+import { describe, context, it, TR, beforeEach, afterEach, before, after, expect } from 'soda-test'
 
 @describe("demo context control methods")
 class DemoTest {

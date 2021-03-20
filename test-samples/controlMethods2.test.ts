@@ -1,4 +1,4 @@
-import { expect, describe, context, it, TR, beforeEach, afterEach, before, after } from '.'
+import { expect, describe, context, it, TR, beforeEach, afterEach, before, after } from 'soda-test'
 
 let BM=0,BEM=0,AEM=0,AM=0,B1=0,BE1=0,AE1=0,A1=0,B2=0,BE2=0,AE2=0,A2=0
 let T1=0,T2=0,T3=0,T4=0,T5=0,T=0,TC1=0,TC2=0

@@ -1,5 +1,5 @@
 // NODE ONLY
-import { expect, describe, it, TR, PTR, SinonStub, createStub, createAgrigation, context, stub, importPrivate, beforeEach, request } from '.'
+import { expect, describe, it, TR, PTR, SinonStub, createStub, createAgrigation, context, stub, importPrivate, beforeEach, request } from 'soda-test'
 import * as express from 'express'
 const isAuthrizedAgr = createAgrigation('./auth', 'isAuthorized')
 const connectStub: SinonStub = createStub('mongoose', 'connect').returns(null)

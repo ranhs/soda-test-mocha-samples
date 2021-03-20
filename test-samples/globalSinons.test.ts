@@ -1,4 +1,4 @@
-import { expect, describe, context, it, TR, spy, SinonSpy, SinonStub, stub, global, Rewire, rewire, useFakeTimers, PTR, SinonFakeTimers } from '.'
+import { expect, describe, context, it, TR, spy, SinonSpy, SinonStub, stub, global, Rewire, rewire, useFakeTimers, PTR, SinonFakeTimers } from 'soda-test'
 
 import { getPrivateMember } from './globalSinons'
 

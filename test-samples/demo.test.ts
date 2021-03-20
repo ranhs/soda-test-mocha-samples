@@ -1,4 +1,4 @@
-import { expect, describe, context, it, TR, PTR, spy, SinonSpy, SinonStub, stub, Done } from '.'
+import { expect, describe, context, it, TR, PTR, spy, SinonSpy, SinonStub, stub, Done } from 'soda-test'
 
 import { add, addCallbck, addPromise, foo, bar, dividePromise } from './demo'
 

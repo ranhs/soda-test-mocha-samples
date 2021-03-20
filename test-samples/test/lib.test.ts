@@ -1,4 +1,4 @@
-import {describe, context, it, TR, expect, spy, stub, SinonSpy, SinonStub, rewire, Rewire} from '..'
+import {describe, context, it, TR, expect, spy, stub, SinonSpy, SinonStub, rewire, Rewire} from 'soda-test'
 import {getCount, setCount, advance, decrement, double, squar, DummyClass, BaseClass} from './lib'
 import {getName, setName} from './lib2'
 

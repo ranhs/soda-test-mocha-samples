@@ -1,4 +1,4 @@
-import { describe, it, TR, pending } from '../..'
+import { describe, it, TR, pending } from 'soda-test'
 
 @describe('nested test')
 class NestedTest {

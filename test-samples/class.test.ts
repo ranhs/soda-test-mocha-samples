@@ -1,4 +1,4 @@
-import { expect, describe, context, it, TR, SinonStub, stub, importPrivate } from '.'
+import { expect, describe, context, it, TR, SinonStub, stub, importPrivate } from 'soda-test'
 
 import { DerivedClass as ExternalDerivedClass } from './class'
 

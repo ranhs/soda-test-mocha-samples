@@ -1,4 +1,4 @@
-import { it, TR, describe, context, assert, before, after, beforeEach, afterEach, pending } from '..'
+import { it, TR, describe, context, assert, before, after, beforeEach, afterEach, pending } from 'soda-test'
 
 @describe("files to tested")
 class DescribeClassTest {

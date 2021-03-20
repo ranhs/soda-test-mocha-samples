@@ -1,4 +1,4 @@
-import { expect, describe, context, it, TR, PTR, testStep, testCase, stepMethod } from '.'
+import { expect, describe, context, it, TR, PTR, testStep, testCase, stepMethod } from 'soda-test'
 import { sleep } from './timers'
 
 let stepsLog: string[]

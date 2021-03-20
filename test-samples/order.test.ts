@@ -1,4 +1,4 @@
-import { expect, describe, it, TR, SinonStub, SinonSpy, stub, spy } from '.'
+import { expect, describe, it, TR, SinonStub, SinonSpy, stub, spy } from 'soda-test'
 
 import { Order, Item, User } from './order'
 

@@ -1,4 +1,4 @@
-import { expect, describe, it, TR, PTR, } from '..'
+import { expect, describe, it, TR, PTR, } from 'soda-test'
 
 import { User } from './user'
 

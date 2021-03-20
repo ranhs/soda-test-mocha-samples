@@ -1,4 +1,4 @@
-import { expect, describe, it, context, TR, spy, SinonSpy, stub, SinonStub } from '.'
+import { expect, describe, it, context, TR, spy, SinonSpy, stub, SinonStub } from 'soda-test'
 import { createFunc } from './createFunction'
 
 @describe('createFunction')

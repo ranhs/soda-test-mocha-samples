@@ -1,4 +1,4 @@
-import { describe, it, TR, expect } from '.'
+import { describe, it, TR, expect } from 'soda-test'
 
 @describe('demo global control methods')
 class DemoTest {
