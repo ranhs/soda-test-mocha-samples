@@ -1,6 +1,5 @@
 import { describe, SinonStub, stub, it, TR, expect, context, beforeEach } from 'soda-test'
 
-import * as crypto from 'crypto'
 import { getHash, isString } from './utils'
 
 @describe('utils')
@@ -17,7 +16,7 @@ class UtilsTest {
     @stub().construct({digest: 'digentStub'})
     updateStub: SinonStub
 
-    @stub(crypto,'createHash').construct({update: 'updateStub'})
+    @stub('crypto','createHash').construct({update: 'updateStub'})
     createHashStub: SinonStub
 
     hash: string

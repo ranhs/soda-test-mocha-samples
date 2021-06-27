@@ -1,6 +1,6 @@
 {
   "name": "soda-test-mocha-samples",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "Sample code for using Soda-Test on backend, using mocha",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,7 @@
   "devDependencies": {
     "cross-env": "^7.0.3",
     "express-serve-static-core": "^0.1.1",
-    "soda-test": "^1.3.3",
+    "soda-test": "^1.3.4",
     "typescript": "^4.2.3"
   },
   "dependencies": {
