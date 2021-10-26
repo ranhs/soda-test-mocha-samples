@@ -1,8 +1,10 @@
-import { describe, context, it, comment, expect, spy, SinonSpy, testStep, testCase, stepMethod } from 'soda-test'
+import { describe, context, it, comment, expect, spy, SinonSpy, testStep, testCase, stepMethod, environment } from 'soda-test'
 import { copyFileSync, unlinkSync, readFileSync } from 'fs'
-import { join } from 'path'
-import { createTestPlan } from 'soda-test/plan'
+import { join } from 'soda-test/dist/path'
 import { testPlan as testPlanRef, testPlan2 as testPlanRef2 } from './testplan.data'
+environment.SKIP_CREATE_TESTPLAN = "YES"
+import { createTestPlan } from 'soda-test/plan'
+delete environment.SKIP_CREATE_TESTPLAN
 
 
 @describe('TestPlan1', {description: 'Test the ability to create a test plan'})
@@ -75,7 +77,6 @@ class PlanTest {
     async createTestPlan3() {
         const tempOutoutFile = `testplan.${Math.random()}.json`
         const fullOutputFile = join(__dirname, tempOutoutFile)
-        console.log(join(__dirname, 'testPlan2.test.ts'))
         await createTestPlan(['node.exe', 'plan', join(__dirname, '../../../test-samples/plan/testPlan2.test.ts'), fullOutputFile])
         const output = readFileSync(fullOutputFile).toString()
         unlinkSync(fullOutputFile)
