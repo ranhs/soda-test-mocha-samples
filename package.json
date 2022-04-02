@@ -28,7 +28,7 @@
   "devDependencies": {
     "cross-env": "^7.0.3",
     "express-serve-static-core": "^0.1.1",
-    "soda-test": "file:../soda-test/soda-test-1.4.0.tgz",
+    "soda-test": "^1.4.0",
     "typescript": "^4.2.3"
   },
   "dependencies": {
